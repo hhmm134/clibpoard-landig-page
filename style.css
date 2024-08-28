@@ -1,0 +1,268 @@
+:root{
+--StrongCyan: hsl(171, 66%, 44%);
+--LightBlue: hsl(233, 100%, 69%);
+--DarkGrayishBlue: hsl(210, 10%, 33%);
+--GrayishBlue: hsl(201, 11%, 66%);
+}
+
+@font-face{
+    font-family: 'hagar';
+    src: url(font/BaiJamjuree-Bold.ttf);
+}
+@font-face {
+    font-family: 'hagar';
+    src: url(font/BaiJamjuree-BoldItalic.ttf);
+}
+@font-face {
+    font-family: 'hagar';
+    src: url(font/BaiJamjuree-ExtraLight.ttf);
+}
+@font-face {
+    font-family: 'hagar';
+    src: url(font/BaiJamjuree-ExtraLightItalic.ttf);
+}
+@font-face {
+    font-family: 'hagar';
+    src: url(font/BaiJamjuree-Italic.ttf);
+}
+@font-face {
+    font-family: 'hagar';
+    src: url(font/BaiJamjuree-Light.ttf);
+}
+@font-face {
+    font-family: 'hagar';
+    src: url(font/BaiJamjuree-LightItalic.ttf);
+}
+@font-face {
+    font-family: 'hagar';
+    src: url(font/BaiJamjuree-Medium.ttf);
+}
+@font-face {
+    font-family: 'hagar';
+    src: url(font/BaiJamjuree-MediumItalic.ttf);
+}
+@font-face {
+    font-family: 'hagar';
+    src: url(font/BaiJamjuree-Regular.ttf);
+}
+@font-face {
+    font-family: 'hagar';
+    src: url(font/BaiJamjuree-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'hagar';
+    src: url(font/BaiJamjuree-SemiBoldItalic.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'hagar';
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+}
+body header{
+    background: url(images/bg-header-mobile.png);
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+}
+body header .logo img{
+    margin: 40% 0px;
+}
+body header .text :first-child{
+    color: var(--DarkGrayishBlue);
+} 
+body header .text :nth-child(2){
+    color: var(--GrayishBlue);
+    margin: 30px 0px;
+}
+body header .links a{
+display: block;
+text-decoration: none;
+margin: 25px 0px;
+color: rgb(255, 255, 255);
+border-radius: 25px;
+padding: 10px;
+}
+body header .links :first-child{
+background-color: var(--StrongCyan);
+}
+body header .links :nth-child(2){
+background-color: var(--LightBlue);
+}
+body .detils{
+    padding: 40px;
+}
+body .detils .detils-text :first-child{
+color: var(--DarkGrayishBlue);
+margin-bottom: 15px;
+}
+body .detils .detils-text :nth-child(2){
+    color: var(--GrayishBlue);
+    margin-bottom: 50px;
+}
+body .detils .detils-per .per-img img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+body .detils .detils-per .per-secs .sec{
+    margin: 30px;
+}
+body .detils .detils-per .per-secs .sec :first-child{
+    color: var(--DarkGrayishBlue);
+    margin-bottom: 10px;
+}
+body .detils .detils-per .per-secs .sec :nth-child(2){
+    color: var(--GrayishBlue);
+    
+}
+body .clipdoard{
+    padding: 40px;
+}
+body .clipdoard :first-child{
+    color: var(--DarkGrayishBlue);
+    margin: 15px;
+}
+body .clipdoard :nth-child(2){
+    color: var(--GrayishBlue);
+    margin-bottom: 40px;
+}
+body .clipdoard img{
+    width: 100%;
+}
+body .charge{
+    padding: 55px;
+}
+body .charge .charge-text :first-child{
+    color: var(--DarkGrayishBlue);
+    margin-bottom: 10px;
+}
+body .charge .charge-text :nth-child(2){
+    color: var(--GrayishBlue);
+    margin-bottom: 50px;
+}
+body .charge .charge-per .charge-secs .sec{
+    margin: 40px 0px;
+}
+body .charge .charge-per .charge-secs .sec :nth-child(2){
+    margin: 25px 0px;
+    color: var(--DarkGrayishBlue);
+}
+body .charge .charge-per .charge-secs .sec :nth-child(3){
+    color: var(--GrayishBlue);
+}
+body .charge .charge-per .charge-imgs img{
+    display: block;
+    margin: 45px auto;
+}
+body .download{
+    padding: 40px;
+}
+body .download .download-text :first-child{
+    color: var(--DarkGrayishBlue  );
+
+}
+body .download .download-text :nth-child(2){
+    color: var(--GrayishBlue);
+    margin: 20px 0px ;
+}
+body .download .download-links a{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 25px 0px;
+    border-radius: 25px;
+    padding: 15px 0px ;
+}
+body .download .download-links :first-child{
+    background-color: var(--StrongCyan);
+}
+body .download .download-links :nth-child(2){
+    background-color: var(--LightBlue);
+}
+body footer{
+    background-color: #ececec;
+    padding: 40px;
+}
+body footer .logo img{
+    width: 50px;
+}
+body footer .links{
+    margin: 20px 0px;
+}
+body footer .links a{
+    display: block;
+    text-decoration: none;
+    margin: 20px 0px ;
+    color: var(--DarkGrayishBlue);
+}
+body footer .imgs img{
+    margin: 0px 15px;
+}
+@media(min-width:1000px){
+     body header .text ,body header .links a ,body .download .download-text{
+        width: 40%;
+        margin: 0 auto;
+     }
+     body header .text , body .download .download-text{
+        margin-bottom: 50px ;
+     }
+     body header .links a ,body .download .download-links a{
+        display: inline;
+        margin: 15px ;
+        padding: 15px 30px ;
+     }
+     body .detils .detils-text{
+        width: 40%;
+        margin: 0 auto;
+     }
+     body .detils .detils-per {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     }
+     body .detils .detils-per .per-img{
+        width: 40%;
+     }
+     body .detils .detils-per .per-secs{
+        text-align: left;
+        width: 35%;
+        margin: 0 auto;
+        line-height: 30px;
+     }
+     body .clipdoard{
+        width: 45%;
+        margin: 0 auto;
+     }
+     body .charge .charge-secs{
+        display: flex;
+        justify-content: space-between;
+     }
+     body .charge .charge-secs .sec{
+       width: 28%;
+     }
+     body .charge .charge-per .charge-imgs img{
+        display: inline;
+        margin: 0px 40px;
+     }
+    body footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    body footer .links{
+        width: 30%;
+        text-align: left;
+        line-height: 35px;
+       }
+    body footer .links a{
+        display: inline;
+        margin: 0px 30px;
+        
+    }
+
+}
